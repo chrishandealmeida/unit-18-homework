@@ -1,0 +1,57 @@
+=============== Jul 6, 2021 (EDT) ===============
+19:49:28.916543 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:49:29.008163 db@open opening
+19:49:29.009563 version@stat F·[] S·0B[] Sc·[]
+19:49:29.028433 db@janitor F·2 G·0
+19:49:29.028706 db@open done T·20.149458ms
+19:49:29.033521 db@close closing
+19:49:29.034085 db@close done T·559.583µs
+=============== Jul 6, 2021 (EDT) ===============
+19:55:36.202332 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:55:36.203485 version@stat F·[] S·0B[] Sc·[]
+19:55:36.203552 db@open opening
+19:55:36.203851 journal@recovery F·1
+19:55:36.207828 journal@recovery recovering @1
+19:55:36.229767 memdb@flush created L0@2 N·15 S·1KiB "\x1d\xd8\xd9..\x06\xf2?,v5":"\xed\xa2\v..\x85\x0ed,v3"
+19:55:36.234271 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:55:36.310787 db@janitor F·3 G·0
+19:55:36.310870 db@open done T·107.3045ms
+=============== Jul 6, 2021 (EDT) ===============
+19:56:49.602559 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:56:49.603771 version@stat F·[1] S·1KiB[1KiB] Sc·[0.25]
+19:56:49.603841 db@open opening
+19:56:49.604144 journal@recovery F·1
+19:56:49.611800 journal@recovery recovering @3
+19:56:49.633189 memdb@flush created L0@5 N·10 S·733B "Dat..ion,v17":"unc..own,v22"
+19:56:49.638483 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+19:56:49.713177 db@janitor F·4 G·0
+19:56:49.713271 db@open done T·109.414334ms
+=============== Jul 6, 2021 (EDT) ===============
+19:59:43.244535 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+19:59:43.245911 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+19:59:43.245986 db@open opening
+19:59:43.246303 journal@recovery F·1
+19:59:43.250797 journal@recovery recovering @6
+19:59:43.271803 memdb@flush created L0@8 N·1 S·203B "unc..own,v28":"unc..own,v28"
+19:59:43.275888 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+19:59:43.350923 db@janitor F·5 G·0
+19:59:43.351008 db@open done T·105.00825ms
+19:59:47.379011 db@close closing
+19:59:47.379178 db@close done T·164.791µs
+=============== Jul 6, 2021 (EDT) ===============
+20:02:21.164113 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:02:21.165343 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+20:02:21.165416 db@open opening
+20:02:21.165754 journal@recovery F·1
+20:02:21.171941 journal@recovery recovering @9
+20:02:21.191980 memdb@flush created L0@11 N·1 S·207B "unc..own,v30":"unc..own,v30"
+20:02:21.195985 version@stat F·[4] S·2KiB[2KiB] Sc·[1.00]
+20:02:21.272014 db@janitor F·6 G·0
+20:02:21.272102 db@open done T·106.675083ms
+20:02:21.272477 table@compaction L0·4 -> L1·0 S·2KiB Q·31
+20:02:21.327335 table@build created L1@14 N·22 S·1KiB "\x1d\xd8\xd9..\x06\xf2?,v5":"\xed\xa2\v..\x85\x0ed,v3"
+20:02:21.327582 version@stat F·[0 1] S·1KiB[0B 1KiB] Sc·[0.00 0.00]
+20:02:21.362463 table@compaction committed F-3 S-742B Ke·0 D·5 T·89.770209ms
+20:02:21.362814 table@remove removed @8
+20:02:21.379068 table@remove removed @5
+20:02:21.379860 table@remove removed @2
